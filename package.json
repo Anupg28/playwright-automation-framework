@@ -1,0 +1,20 @@
+{
+  "name": "playwright-automation-framework",
+  "version": "1.0.0",
+  "description": "UI + API test automation framework built with Playwright and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test tests/login.spec.js tests/practiceForm.spec.js",
+    "test:api": "playwright test tests/api.spec.js",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "automation", "testing", "qa"],
+  "author": "Anup Ghodake",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  }
+}
