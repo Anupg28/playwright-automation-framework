@@ -29,6 +29,10 @@ playwright-automation-framework/
 └── .github/workflows/ci.yml
 ```
 
+## Sample report
+
+![Playwright HTML report - 10/10 passing](docs/images/playwright-report-sample.png)
+
 ## Running locally
 
 ```bash
